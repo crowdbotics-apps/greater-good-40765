@@ -9,17 +9,17 @@ const OnboardingChooseIndustryScreen = params => {
         <Text style={styles.heading}>Onboarding</Text>
         <Text />
       </View>
-      <Text style={styles.mr10}>List of industries</Text>
+      <Text style={styles.mr10}>List of Categories</Text>
       <View style={styles.chooseContainer}>
-        <Text>Industry 1</Text>
+        <Text>Category 1</Text>
         <Image source={require("./assets/next.png")} style={styles.nextImg} />
       </View>
-      <Text style={styles.mr10}>Choose subindustry</Text>
+      <Text style={styles.mr10}>Choose Sub Category</Text>
       <View style={styles.chooseContainer}>
-        <Text>Industry 1</Text>
+        <Text>Sub Category 1</Text>
         <Image source={require("./assets/next.png")} style={styles.nextImg} />
       </View>
-      <Text style={styles.mr10}>List of specialty</Text>
+      <Text style={styles.mr10}>List of Specialties</Text>
       <View style={styles.chooseContainer}>
         <Text>Specialty 1</Text>
         <Image source={require("./assets/next.png")} style={styles.nextImg} />
